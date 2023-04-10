@@ -1,0 +1,4 @@
+import os
+
+GITLAB_CLIENT_ID = os.getenv('GITLAB_CLIENT_ID')
+GITLAB_CLIENT_SECRET = os.getenv('GITLAB_CLIENT_SECRET')
